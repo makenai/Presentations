@@ -23,10 +23,6 @@ They are a standards organization, like ISO.
 
 ---
 
-# [fit] Exciting new features
-
----
-
 # ECMAScript Editions
 
 * 1 - June 1997
@@ -37,6 +33,9 @@ They are a standards organization, like ISO.
 * 6 - Mid-2015
 * 7 - TBA
 
+---
+
+# [fit] Exciting new features
 
 ---
 

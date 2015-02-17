@@ -242,6 +242,28 @@ console.log(s.size); // 3
 
 ---
 
+# WeakMap / WeakSet
+
+```javascript
+var map = new WeakMap();
+var dom = {
+  someNode: { 'cats': 'happy' }
+};
+
+map.set(dom.someNode, "Meow");
+
+var value = map.get(dom.someNode);
+console.log(value); // "Meow"
+
+dom['someNode'] = { 'cats': 'sad' };
+
+// Having no strong references, { 'cats': 'happy' }
+// can now be garbage collected.
+
+```
+
+---
+
 # Proxies [^2]
 
 ```javascript

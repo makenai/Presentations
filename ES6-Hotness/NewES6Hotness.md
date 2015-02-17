@@ -9,6 +9,8 @@ slidenumbers: true
 
 ECMAScript 6 is the 6th edition of ECMA-262, the standard defining the behaviors of the JavaScript language.
 
+JavaScript is an implementation of ECMAScript, as are JScript and ActionScript.
+
 ---
 
 > ECMAScript was always an unwanted trade name that sounds like a skin disease.
